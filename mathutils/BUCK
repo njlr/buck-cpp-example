@@ -1,0 +1,13 @@
+cxx_library(
+  name = 'mathutils',
+  header_namespace = 'mathutils',
+  exported_headers = subdir_glob([
+    ('include', '**/*.hpp'),
+  ]),
+  srcs = glob([
+    'src/**/*.cpp',
+  ]),
+  visibility = [
+    '//...',
+  ],
+)

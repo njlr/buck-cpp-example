@@ -1,0 +1,9 @@
+cxx_test(
+  name = 'add',
+  srcs = [
+    'add.cpp',
+  ],
+  deps = [
+    '//mathutils:mathutils',
+  ],
+)
