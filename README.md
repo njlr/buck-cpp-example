@@ -15,6 +15,12 @@ To run the demo:
 buck run :demo
 ```
 
+To fetch the Google Test submodule:
+
+```
+git submodule update --init --recursive
+```
+
 To run the tests:
 
 ```
