@@ -1,3 +1,5 @@
+load('//:subdir_glob.bzl', 'subdir_glob')
+
 cxx_library(
   name = 'mathutils',
   header_namespace = 'mathutils',

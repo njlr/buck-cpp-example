@@ -1,0 +1,11 @@
+# Ignore CI build directory
+build/
+
+# Buck
+.buckconfig.local
+/buck-out/
+/.buckd/
+
+# Buckaroo
+/buckaroo/
+/BUCKAROO_DEPS

@@ -1,3 +1,5 @@
+load('//:subdir_glob.bzl', 'subdir_glob')
+
 cxx_binary(
   name = 'demo',
   header_namespace = 'demo',

@@ -1,0 +1,6 @@
+{
+  "name": "gmock",
+  "dependencies": {
+    "gtest": "1.8.0"
+  }
+}
